@@ -1,0 +1,29 @@
+# Circuit Connections
+
+## Components
+
+- Arduino Uno
+- TMP36 Temperature Sensor
+- Breadboard
+- Jumper Wires
+
+## Connections
+
+TMP36 Left Pin → 3.3V
+
+TMP36 Middle Pin → Arduino A0
+
+TMP36 Right Pin → GND
+
+## Working
+
+1. The sensor measures the surrounding temperature.
+2. It outputs an analog voltage.
+3. Arduino reads the voltage through Analog Pin A0.
+4. The program converts the voltage into temperature.
+5. Temperature is displayed in the Serial Monitor.
+
+## Notes
+
+- Ensure the TMP36 is connected in the correct orientation.
+- Incorrect wiring may damage the sensor or give incorrect readings.
